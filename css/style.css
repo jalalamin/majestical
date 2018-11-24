@@ -26,8 +26,6 @@
 	letter-spacing:4px;
 	text-shadow:0 0 10px #fff000;
 	box-shadow:0 0 20px rgba(0, 0, 0, .5);
-	
-	z-index:99999;
 }
 #lodoading .ring:before{
 	content:'';
