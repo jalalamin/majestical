@@ -10,7 +10,13 @@
 		<link type="text/css" rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	</head>
-	<body>
+	<body onload="myfunction()">
+		<div id="lodoading">
+			<div class="ring">
+				loading ...
+				<span></span>
+			</div>
+		</div>
 		<div class="top_bar">
 			<div class="top_bar_margin">
 				<div class="top_bar_menu">
@@ -199,5 +205,13 @@
 				</div>
 			</div>
 		</div>
+		
+		<script>
+			var preload = document.getElementById('lodoading');
+			function myfunction() {
+				preload.style.display = 'none'
+			}
+		</script>
+		
 	</body>
 </html>
